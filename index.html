@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minha Jornada no Desenvolvimento Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Minha Jornada no Desenvolvimento Web</h1>
+    </header>
+
+    <div class="menu-fixo">
+        <a href="#sobre" class="item">Sobre</a>
+        <a href="#Linkedin" class="item">Linkedin</a>
+        <a href="#Componentes" class="item">Componentes</a>
+        <a href="#Sistemas" class="item">Sistemas</a>
+        <a href="#Linux" class="item">Linux</a>
+        <a href="#Metodologias" class="item">Metodologias</a>
+        <a href="#Tipografia" class="item">Tipografia</a>
+        <a href="#Gestalt" class="item">Cores e Gestalt</a>
+        <a href="#Figma" class="item">Figma</a>
+        <a href="#HTML-&-CSS" class="item">HTML & CSS</a>
+        <a href="#FLEXBOX" class="item">FLEXBOX</a>
+        <a href="#Responsividade" class="item">Responsividade</a>
+        <a href="#GitHub" class="item">GitHub</a>
+        <a href="#GRID" class="item">GRID</a>
+        <a href="#Inputs" class="item">#ID e Inputs</a>
+        <a href="#Keyframe" class="item">Keyframe</a>
+        <a href="#Formas" class="item">Formas com CSS</a>
+    </div>
+
+<button id="theme-toggle" class="btn">Alternar Tema</button>
+
+    <section>
+        <h2 id="sobre">Sobre o site</h2>
+        <p>
+            Este site foi criado com o objetivo de apresentar, de forma organizada e visual, uma linha do tempo com tudo
+            que aprendi ao longo deste semestre no SENAI. Aqui, compartilho os principais conteúdos, projetos,
+            habilidades e experiências que adquiri durante o curso.
+            A ideia é mostrar minha evolução e destacar os conhecimentos práticos e teóricos que desenvolvi, desde os
+            primeiros conceitos até as atividades mais complexas. A linha do tempo facilita a navegação pelos diferentes
+            momentos e permite visualizar como cada aprendizado contribuiu para a minha formação profissional.
+            Espero que este site sirva não apenas como um registro pessoal, mas também como uma inspiração para outros
+            estudantes que, assim como eu, estão em busca de crescimento e aprendizado contínuo.
+        </p>
+    </section>
+    <hr>
+    <section>
+        <h2>Linha do Tempo</h2>
+
+        <div class="timeline">
+            <div class="timeline-item left" onclick="toggleContent(this)" id="Linkedin">
+                <h3>Linkedin<br> data 05/02</h3>
+                <img src="img/linkedin 2.png" alt="Imagem do LinkedIn">
+                <div class="hidden-content">
+                    <p>Na aula, criamos uma conta na plataforma e aprendemos sobre sua importância como rede
+                        social profissional, destacando seu papel na construção de networking, na divulgação de
+                        competências e na busca por oportunidades no mercado de trabalho.</p>
+                    <a href="www.linkedin.com/in/kaike-brito-moreira-a0579434a" target="_blank" class="btn">Acessar</a>
+                </div>
+            </div>
+
+            <div class="timeline-item right" onclick="toggleContent(this)" id="Componentes">
+                <h3>Componentes do Computador <br> data 07/02</h3>
+                <img src="img/componentes.png" alt="Imagem Componentes">
+                <div class="hidden-content">
+                    <p>Na aula, aprendemos sobre todos os componentes do computador, conhecidos como hardware, que
+                        correspondem à parte física, ou seja, aquela que podemos tocar. Estudamos peças fundamentais
+                        como placa-mãe, processador, memória RAM, armazenamento, placa de vídeo e fontes de alimentação,
+                        entendendo suas funções e interações. Além disso, realizamos um desafio prático, no qual
+                        montamos uma configuração de computador com um orçamento de R$ 3.000, aplicando na prática os
+                        conhecimentos adquiridos.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left" onclick="toggleContent(this)" id="Sistemas">
+                <h3>Sistemas Operacionais<br> data 12/02</h3>
+                <img src="img/Sistemas 2.png" alt="Imagem Sistemas">
+                <div class="hidden-content">
+                    <p>Na aula, exploramos os conceitos básicos de sistemas operacionais e entendemos como eles
+                        influenciam o desenvolvimento de software. Conhecemos ambientes de desenvolvimento comuns, como
+                        IDEs, e aprendemos sobre os processos de Tecnologia da Informação e Comunicação aplicados em
+                        ambientes empresariais e industriais. Também estudamos temas importantes como infraestrutura de
+                        TI, redes, software, hardware e a importância das normas e padrões técnicos.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right" onclick="toggleContent(this)" id="Linux">
+                <h3>Fundamentos de Linux/Sistemas Operacionais / Hardware<br> data 19/02</h3>
+                <img src="img/linux.png" alt="Imagem Linux">
+                <div class="hidden-content">
+                    <p>Na aula,Estudamos os conceitos básicos sobre como os sistemas operacionais funcionam, com foco
+                        especial
+                        no Linux, entendendo sua estrutura, características e importância no desenvolvimento de
+                        software. Também aprofundamos nossos conhecimentos sobre hardware, vendo como ele se relaciona
+                        diretamente com o sistema operacional.
+                        <br>
+                        Além disso, realizamos na prática a criação de uma máquina virtual, onde instalamos e testamos o
+                        Linux. Essa atividade foi muito importante para aplicar o que aprendemos na teoria e entender
+                        melhor o funcionamento do sistema em um ambiente controlado e seguro.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item left" onclick="toggleContent(this)" id="Metodologias">
+                <h3>Metodologias Ágeis<br> data 21/02</h3>
+                <img src="img/Ágeis.png" alt="Imagem Metodologias Ágeis">
+                <div class="hidden-content">
+                    <p>Na aula, Estudamos os principais conceitos das metodologias ágeis, entendendo como elas ajudam a
+                        organizar
+                        e agilizar o desenvolvimento de software. Vimos como essas práticas facilitam o trabalho em
+                        equipe, melhoram a comunicação e tornam o processo de criação de sistemas mais eficiente e
+                        flexível.
+                        <br>
+                        Conhecemos métodos como Scrum e Kanban, aprendendo sobre seus papéis, etapas e ferramentas que
+                        auxiliam na gestão de projetos. Foi uma aula muito importante, pois mostrou como aplicar essas
+                        metodologias no dia a dia profissional, contribuindo para o sucesso dos projetos de
+                        desenvolvimento.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item right" onclick="toggleContent(this)" id="Tipografia">
+                <h3>Tipografia<br> data 26/02</h3>
+                <img src="img/Tipografia.png" alt="Imagem tipografia">
+                <div class="hidden-content">
+                    <p>Na aula, aprendemos sobre UI (Interface do Usuário) e UX
+                        (Experiência do Usuário), entendendo que UI trata da aparência e dos elementos visuais, enquanto
+                        UX foca na experiência e satisfação do usuário ao usar o sistema.
+                        <br>
+                        Estudamos a tipografia, que influencia na legibilidade e estética das interfaces, e as cores,
+                        que ajudam a transmitir emoções e orientar a navegação.
+                        <br>
+                        Falamos sobre navegabilidade, que garante que o usuário consiga se mover facilmente pelo
+                        sistema, e o fluxo de informações, que organiza o conteúdo de forma clara e lógica.
+                        <br>
+                        Também aprendemos sobre testes de usabilidade, importantes para identificar falhas e melhorar a
+                        experiência antes de lançar o produto.
+                        <br>
+                        Por fim, vimos a prototipação, entendendo seus tipos (como protótipos de baixa e alta
+                        fidelidade), exploramos ferramentas online que facilitam esse processo e elaboramos um
+                        organograma para planejar melhor a estrutura do sistema.
+                        <br>
+                        Foi uma aula muito completa, que mostrou como cada detalhe impacta na criação de sistemas mais
+                        eficientes e agradáveis para os usuários.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="timeline-item left" onclick="toggleContent(this)" id="Gestalt">
+                <h3>Cores e Gestalt<br>data 28/02</h3>
+                <img src="img/Cores e Gestalt.png" alt="Imagem Cores e Gestalt">
+                <div class="hidden-content">
+                    <p>Na aula, Primeiro, exploramos o uso das cores, entendendo como elas influenciam a percepção,
+                        transmitem emoções e ajudam a comunicar mensagens de forma eficaz nas interfaces. Vimos
+                        conceitos como a psicologia das cores, combinações harmônicas e o impacto das cores na
+                        usabilidade e acessibilidade dos sistemas.
+                        <br>
+                        Depois, conhecemos os princípios da Gestalt, que são regras da percepção visual que explicam
+                        como nosso cérebro organiza os elementos para formar um todo coerente. Estudamos conceitos como
+                        proximidade, semelhança, continuidade e fechamento, e como aplicá-los para criar designs mais
+                        intuitivos e agradáveis.
+                        <br>
+                        A aula foi fundamental para entender como o uso correto das cores e dos princípios da Gestalt
+                        podem melhorar a experiência do usuário, tornando o sistema mais atraente e fácil de usar.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item right" onclick="toggleContent(this)" id="Figma">
+                <h3>Prototipagem/Figma<br> data 07/03 & 12/03</h3>
+                <img src="img/Figma.png" alt="Imagem figma">
+                <div class="hidden-content">
+                    <p>Na aula, Estudamos o conceito de prototipagem, que é uma etapa fundamental no desenvolvimento de
+                        sistemas para criar modelos funcionais das interfaces antes da programação. Isso ajuda a
+                        visualizar e testar ideias, facilitando ajustes rápidos e garantindo uma melhor experiência para
+                        o usuário.
+                        <br>
+                        Na prática, utilizamos o Figma, uma ferramenta online muito popular para design e prototipação.
+                        Criamos um protótipo completo, onde pudemos aplicar os conceitos aprendidos, organizando telas,
+                        adicionando interatividade e simulando o fluxo de navegação do usuário.
+                        <br>
+                        Foi uma aula bastante prática e importante para entender como transformar ideias em projetos
+                        visuais que ajudam a guiar o desenvolvimento do sistema.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item left" onclick="toggleContent(this)" id="HTML-&-CSS">
+                <h3>Introdução HTML & CSS<br>data 08/04</h3>
+                <img src="img/HTML & CSS.png" alt="Imagem HTML & CSS">
+                <div class="hidden-content">
+                    <p>Na aula, Aprendemos o básico dessas duas linguagens fundamentais para a construção de sites. O
+                        HTML foi apresentado como a estrutura da página, responsável por organizar os conteúdos como
+                        textos, imagens e links. Já o CSS serve para estilizar essa estrutura, definindo cores, fontes,
+                        espaçamentos e layout.
+                        <br>
+                        Para colocar tudo em prática, criamos nosso primeiro site simples, onde aplicamos os conceitos
+                        básicos para construir uma página funcional e visualmente agradável. Foi uma experiência muito
+                        legal, porque conseguimos ver o resultado imediato do nosso trabalho e entender como HTML e CSS
+                        trabalham juntos para criar páginas na web.
+                    </p>
+                    <a href="https://kaike-mega.github.io/Kai-Games/" target="_blank" class="btn">Ver o Site</a>
+                    <p>não há responsividade</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right" onclick="toggleContent(this)" id="FLEXBOX">
+                <h3>FLEXBOX<br> data 23/04</h3>
+                <img src="img/FLEXBOX.png" alt="Imagem FLEXBOX">
+                <div class="hidden-content">
+                    <p>Na aula, Estudamos como o Flexbox facilita a criação de layouts mais organizados e responsivos,
+                        permitindo alinhar, distribuir e posicionar os elementos de uma página de forma mais prática e
+                        eficiente.
+                        <br>
+                        Aprendemos as principais propriedades, como display: flex, justify-content, align-items e
+                        flex-direction, além de como usar o Flexbox para adaptar o layout em diferentes tamanhos de
+                        tela.
+                        <br>
+                        Também fizemos exercícios práticos, criando estruturas com Flexbox e vendo, na prática, como ele
+                        facilita a organização dos elementos sem precisar usar tantos comandos complexos.
+                        <br>
+                        Foi uma aula muito importante, pois o Flexbox é essencial para desenvolver sites modernos e bem
+                        estruturados.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item left" onclick="toggleContent(this)" id="Responsividade">
+                <h3>Responsividade<br>data 25/04</h3>
+                <img src="img/Responsividade.png" alt="Imagem Responsividade">
+                <div class="hidden-content">
+                    <p>Na aula, Estudamos como a responsividade é fundamental para que as páginas se adaptem bem a
+                        diferentes tamanhos de tela, como computadores, tablets e celulares, garantindo uma boa
+                        experiência para todos os usuários.
+                        <br>
+                        Aprendemos a usar técnicas como media queries no CSS, além de boas práticas para criar layouts
+                        flexíveis e que se ajustam automaticamente conforme o dispositivo.
+                        <br>
+                        Também realizamos atividades práticas, adaptando páginas para que ficassem responsivas, testando
+                        o resultado em vários tamanhos de tela.
+                        <br>
+                        Foi uma aula muito importante, pois a responsividade é essencial no desenvolvimento web atual,
+                        onde a maioria das pessoas acessa sites por dispositivos móveis.
+                    </p>
+                    <a href="https://kaike-mega.github.io/Musicas/" target="_blank" class="btn">Ver o Site</a>
+                </div>
+            </div>
+
+            <div class="timeline-item right" onclick="toggleContent(this)" id="GitHub">
+                <h3>Versionamento/GitHub<br> data 07/05</h3>
+                <img src="img/GitHub.png" alt="Imagem GitHub">
+                <div class="hidden-content">
+                    <p>Na aula, Estudamos a importância do versionamento no desenvolvimento de software, que permite
+                        controlar as alterações feitas no código, trabalhar em equipe de forma organizada e manter um
+                        histórico de todas as modificações.
+
+                        Aprendemos a usar o Git, entendendo comandos básicos como git init, git add, git commit e git
+                        push, além de como criar e gerenciar repositórios no GitHub, que é uma plataforma online para
+                        hospedar e compartilhar projetos.
+
+                        Também fizemos atividades práticas, criando nosso próprio repositório no GitHub e enviando
+                        códigos para ele, o que nos ajudou a entender melhor como funciona o fluxo de trabalho com
+                        versionamento.
+
+                        Foi uma aula muito importante, pois o uso de ferramentas como Git e GitHub é essencial para quem
+                        quer atuar na área de desenvolvimento de sistemas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item left" onclick="toggleContent(this)" id="GRID">
+                <h3>Unidades de Medidas e Layout - GRID<br>data 09/05</h3>
+                <img src="img/Grid.png" alt="Imagem GRID">
+                <div class="hidden-content">
+                    <p>Na aula, Primeiro, estudamos as principais unidades de medida usadas no desenvolvimento web, como
+                        pixels (px), porcentagem (%), em e rem. Entendemos como cada uma delas influencia o tamanho e a
+                        proporção dos elementos na página, principalmente quando falamos de responsividade.
+                        <br>
+                        Depois, aprendemos sobre o sistema de layout GRID, que é uma ferramenta poderosa do CSS para
+                        criar estruturas organizadas e flexíveis. Estudamos as principais propriedades, como display:
+                        grid, grid-template-columns e grid-gap, e como elas facilitam a criação de layouts mais
+                        complexos, sem a necessidade de muitos ajustes manuais.
+                        <br>
+                        Também fizemos atividades práticas, criando layouts com GRID e testando diferentes configurações
+                        para ver como os elementos se organizam automaticamente conforme o espaço disponível.
+                        <br>
+                        Foi uma aula muito produtiva, que nos ajudou a entender como usar as unidades de medida e o GRID
+                        para construir páginas bem estruturadas e responsivas."
+                    </p>
+                    <a href="https://kaike-mega.github.io/Mega-men-x1/" target="_blank" class="btn">Ver o Site</a>
+                </div>
+            </div>
+
+            <div class="timeline-item right" onclick="toggleContent(this)" id="Inputs">
+                <h3>Uso do #ID e Inputs<br> data 16/05</h3>
+                <img src="img/Input.png" alt="Imagem ID">
+                <div class="hidden-content">
+                    <p>Na aula,Primeiro, entendemos como utilizar o #ID no HTML e CSS, aprendendo que ele serve para
+                        identificar elementos únicos na página, permitindo que sejam estilizados ou manipulados de forma
+                        específica, sem afetar outros componentes.
+                        <br>
+                        Depois, estudamos os inputs, que são os campos usados para interagir com os usuários, como
+                        caixas de texto, botões de envio, checkboxes e seletores. Vimos como criar diferentes tipos de
+                        inputs com a tag input e como personalizá-los com o CSS, muitas vezes usando o #ID para deixar
+                        cada campo com uma aparência específica.
+                        <br>
+                        Também fizemos atividades práticas, criando formulários simples, aplicando IDs e estilizando os
+                        inputs para melhorar a aparência e a usabilidade.
+                        <br>
+                        Foi uma aula muito importante, pois aprendemos como deixar as páginas mais interativas e
+                        organizadas, além de entender como o #ID pode facilitar o desenvolvimento e a manutenção do
+                        código.
+                    </p>
+                    <a href="https://kaike-mega.github.io/sabores-da-terra/" target="_blank" class="btn">Ver o Site</a>
+                </div>
+            </div>
+
+            <div class="timeline-item left" onclick="toggleContent(this)" id="Keyframe">
+                <h3>Animações com Keyframes<br>data 21/05</h3>
+                <img src="img/Keyframe.png" alt="Imagem Keyframes">
+                <div class="hidden-content">
+                    <p>Na aula, Estudamos como usar a regra @keyframes para criar animações que dão mais vida e
+                        movimento aos elementos de uma página web. Vimos como definir os estados inicial e final da
+                        animação, além de configurar o tempo, a direção e o tipo de repetição.
+                        <br>
+                        Também aprendemos sobre propriedades importantes como animation-name, animation-duration e
+                        animation-iteration-count, que são essenciais para controlar a animação de forma precisa.
+                        <br>
+                        Na parte prática, criamos animações simples, como movimentar caixas, mudar cores e alterar
+                        tamanhos de elementos, tudo isso aplicando os keyframes que desenvolvemos.
+                        <br>
+                        Foi uma aula muito interessante, pois vimos como as animações podem melhorar a experiência do
+                        usuário, deixando os sites mais dinâmicos e atraentes.
+                        <a href="https://kaike-mega.github.io/sistema-solar/" target="_blank" class="btn">Ver o Site</a>
+                </div>
+            </div>
+
+            <div class="timeline-item right" onclick="toggleContent(this)" id="Formas">
+                <h3>Formas com CSS<br> data 23/05</h3>
+                <img src="img/formas.png" alt="Imagem Formas">
+                <div class="hidden-content">
+                    <p>Na aula, Estudamos como usar propriedades como width, height, border-radius e border para criar
+                        várias formas geométricas, como círculos, quadrados, triângulos e outras figuras.
+                        <br>
+                        Além disso, aprendemos a utilizar a propriedade clip-path, que permite criar formas ainda mais
+                        complexas e personalizadas, cortando elementos de acordo com formatos específicos, como
+                        polígonos, elipses ou até formas livres.
+                        <br>
+                        Na prática, criamos várias formas usando essas técnicas e testamos como aplicá-las em diferentes
+                        partes do layout, como botões, ícones e áreas de destaque.
+                        <br>
+                        Foi uma aula muito criativa e importante, pois mostrou como é possível construir elementos
+                        gráficos diretamente com CSS, sem depender de imagens, deixando os sites mais leves e modernos.
+                    </p>
+                    <a href="https://kaike-mega.github.io/formas/" target="_blank" class="btn">Ver o Site</a>
+                </div>
+            </div>
+        </div>
+
+        <h2>isso é tudo</h2>
+        <p class="fim">Isso foi tudo que aprendemos neste primeiro semestre, espero que tenham gostado </p>
+    </section>
+
+    <script>
+        function toggleContent(element) {
+            element.classList.toggle('active');
+        }
+    </script>
+
+
+<script>
+  const toggleButton = document.getElementById('theme-toggle');
+  toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme');
+  });
+</script>
+
+
+
+    <div class="final">
+        <footer>
+            <p>&copy; 2025 - Brito Productions</p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
