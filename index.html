@@ -34,9 +34,13 @@
         <a href="#Inputs" class="item">#ID e Inputs</a>
         <a href="#Keyframe" class="item">Keyframe</a>
         <a href="#Formas" class="item">Formas com CSS</a>
+        <a href="#Demonstração" class="item">Demonstração</a>
     </div>
 
-<button id="theme-toggle" class="btn">Alternar Tema</button>
+    <button id="theme-toggle" class="btm">
+        <img id="theme-icon" src="img/lua.png" alt="Alternar Tema">
+    </button>
+
 
     <section>
         <h2 id="sobre">Sobre o site</h2>
@@ -172,6 +176,8 @@
                         A aula foi fundamental para entender como o uso correto das cores e dos princípios da Gestalt
                         podem melhorar a experiência do usuário, tornando o sistema mais atraente e fácil de usar.
                     </p>
+                    <a href="https://www.canva.com/design/DAGgaOGcyNY/e2ctGepB7qg-7cQ7IwMLLg/edit?utm_content=DAGgaOGcyNY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                        target="_blank" class="btn">Acessar</a>
                 </div>
             </div>
 
@@ -274,6 +280,7 @@
                         Foi uma aula muito importante, pois o uso de ferramentas como Git e GitHub é essencial para quem
                         quer atuar na área de desenvolvimento de sistemas.
                     </p>
+                    <a href="https://github.com/Kaike-mega"target="_blank" class="btn">Acessar</a>
                 </div>
             </div>
 
@@ -294,7 +301,7 @@
                         para ver como os elementos se organizam automaticamente conforme o espaço disponível.
                         <br>
                         Foi uma aula muito produtiva, que nos ajudou a entender como usar as unidades de medida e o GRID
-                        para construir páginas bem estruturadas e responsivas."
+                        para construir páginas bem estruturadas e responsivas.
                     </p>
                     <a href="https://kaike-mega.github.io/Mega-men-x1/" target="_blank" class="btn">Ver o Site</a>
                 </div>
@@ -366,9 +373,132 @@
             </div>
         </div>
 
-        <h2>isso é tudo</h2>
-        <p class="fim">Isso foi tudo que aprendemos neste primeiro semestre, espero que tenham gostado </p>
+        <h2>FIM</h2>
+        <p class="fim">Isso foi tudo que aprendemos neste primeiro semestre</p>
     </section>
+    <hr>
+    <section>
+        <h2 id="Demonstração">Demonstração</h2>
+
+        <h3>Figma</h3>
+
+        <p>A prototipagem no Figma é uma etapa essencial no processo de design, que permite transformar interfaces
+            estáticas em fluxos interativos. Com ela, é possível simular a navegação entre telas, criar animações e
+            testar a usabilidade antes do desenvolvimento final. O Figma se destaca por sua interface intuitiva,
+            colaboração em tempo real e recursos como transições, sobreposições e interações baseadas em eventos,
+            facilitando a validação de ideias e o refinamento de experiências para o usuário.</p>
+
+        <div class="normal">
+            <img src="img/Proto 1.png" alt="Exemplo">
+        </div>
+
+        <p>A prototipagem no Figma permite criar fluxos interativos que simulam a navegação real de um aplicativo ou
+            site. Através da aba "Prototype", os designers podem conectar diferentes quadros (frames) usando setas de
+            ligação, configurando interações como cliques, passagens de mouse ou teclas pressionadas.</p>
+
+        <div class="normal">
+            <img src="img/Proto 2.png" alt="Exemplo">
+        </div>
+
+        <p>se quiser ver mais de perto, clique aqui</p>
+        <a href="https://www.figma.com/design/z4uVikw40yE0mTDOZEAsO8/Untitled?node-id=34-83&p=f&t=iDxHA7iPeRIKvPTa-0"
+            target="_blank" class="figma-circulo"></a>
+        <br><br>
+        <h3>FlexBox & GRID</h3>
+
+        <p>Um site sem Flexbox ou Grid, feito apenas com floats ou posicionamentos fixos, costuma ser mais difícil de
+            alinhar e manter, além de ter um layout menos responsivo. Já com Flexbox, conseguimos alinhar facilmente
+            elementos tanto horizontalmente quanto verticalmente, além de permitir que se ajustem automaticamente ao
+            espaço disponível, facilitando muito o desenvolvimento responsivo. O Grid, por sua vez, é ideal para criar
+            layouts mais complexos, organizando os elementos em linhas e colunas com precisão, oferecendo um controle
+            bidimensional que o Flexbox não possui. Assim, usar Flexbox e Grid traz vantagens como: mais flexibilidade,
+            menos código, manutenção mais simples e uma experiência de desenvolvimento e navegação muito melhor.</p>
+        <p>Compare um site feito sem Flexbox com outro utilizando Flexbox, destacando como o uso dessa ferramenta
+            facilita o alinhamento, a responsividade e simplifica a estrutura do layout</p>
+
+        <div class="sites">
+            <a href="sem.html" target="_blank" class="btn">Sem display</a>
+            <a href="Flexbox.html" target="_blank" class="btn">FlexBox</a>
+            <a href="grid.html" target="_blank" class="btn">Grid</a>
+        </div>
+
+        <br><br>
+        <h3>#ID & Inputs</h3>
+
+        <form class="reserva-form">
+            <label for="nome"><strong>Nome:</strong></label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br>
+            <label for="email"><strong>Email:</strong></label><br>
+            <input type="email" id="email" name="email" placeholder="exemplo@email.com"><br>
+            <label for="quantidade"><strong>Quantidade:</strong></label><br>
+            <input type="number" id="quantidade" name="quantidade" min="1" max="50" value="1"><br>
+            <label for="data"><strong>Data:</strong></label><br>
+            <input type="date" id="data" name="data"><br>
+            <label for="satisfacao"><strong>Nível em barra:</strong></label><br>
+            <input type="range" id="satisfacao" name="satisfacao" min="0" max="10" value="5" step="1">
+            <span id="valor-satisfacao">5</span><br><br>
+        </form>
+
+        <br><br>
+        <h3>Keyframes</h3>
+
+        <div class="formas">
+            <div class="quadrado"></div>
+            <div class="triangulo"></div>
+            <div class="circulo"></div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <script>
         function toggleContent(element) {
@@ -377,12 +507,32 @@
     </script>
 
 
-<script>
-  const toggleButton = document.getElementById('theme-toggle');
-  toggleButton.addEventListener('click', () => {
-    document.body.classList.toggle('dark-theme');
-  });
-</script>
+    <script>
+        const toggleButton = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+
+            if (body.classList.contains('dark-theme')) {
+                themeIcon.src = 'img/sol.png';
+                themeIcon.alt = 'Tema Claro';
+            } else {
+                themeIcon.src = 'img/lua.png';
+                themeIcon.alt = 'Tema Escuro';
+            }
+        });
+    </script>
+
+    <script>
+        const range = document.getElementById('satisfacao');
+        const valor = document.getElementById('valor-satisfacao');
+
+        range.addEventListener('input', function () {
+            valor.textContent = range.value;
+        });
+    </script>
 
 
 
