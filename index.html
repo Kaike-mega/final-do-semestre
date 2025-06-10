@@ -16,7 +16,8 @@
         <h1>Minha Jornada no Desenvolvimento Web</h1>
     </header>
 
-    <div class="menu-fixo">
+    <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+    <div class="menu-fixo" id="menu">
         <a href="#sobre" class="item">Sobre</a>
         <a href="#Linkedin" class="item">Linkedin</a>
         <a href="#Componentes" class="item">Componentes</a>
@@ -280,7 +281,7 @@
                         Foi uma aula muito importante, pois o uso de ferramentas como Git e GitHub é essencial para quem
                         quer atuar na área de desenvolvimento de sistemas.
                     </p>
-                    <a href="https://github.com/Kaike-mega"target="_blank" class="btn">Acessar</a>
+                    <a href="https://github.com/Kaike-mega" target="_blank" class="btn">Acessar</a>
                 </div>
             </div>
 
@@ -451,55 +452,6 @@
 
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script>
         function toggleContent(element) {
             element.classList.toggle('active');
@@ -534,11 +486,21 @@
         });
     </script>
 
-
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'flex' : 'none';
+        }
+    </script>
 
     <div class="final">
         <footer>
-            <p>&copy; 2025 - Brito Productions</p>
+            <div class="footer-content">
+                <p>&copy; 2025 - Brito Productions</p>
+                <a href="https://www.figma.com/design/t80RESwGx9vDMKbFWvPUXQ/projeto-do-semestre?node-id=0-1&p=f&t=hc6paG1aVzo3aF5Y-0" target="_blank">
+                    <img src="img/logos.png" alt="Logo" class="footer-img">
+                </a>
+            </div>
         </footer>
     </div>
 
